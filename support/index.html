@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#163d58">
+    <meta name="description" content="Spatial Studio support: device compatibility, backups, exports, privacy, purchases, refunds, troubleshooting, and frequently asked questions.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Support & FAQ — Spatial Studio">
+    <meta property="og:description" content="Answers for scanning, editing, exporting, backups, purchases, and refunds in Spatial Studio.">
+    <meta name="twitter:card" content="summary">
+    <title>Support &amp; FAQ — Spatial Studio</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="../" aria-label="Spatial Studio home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Spatial Studio</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="../">Overview</a>
+          <a href="../accuracy/">Accuracy</a>
+          <a href="./" aria-current="page">Support</a>
+          <a href="../privacy/">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Support &amp; FAQ</p>
+          <h1>Answers without the runaround.</h1>
+          <p class="lead">Start with the quick checks below. If something still is not right, open a support issue and include the details needed to reproduce it.</p>
+        </div>
+      </header>
+
+      <section class="section tight">
+        <div class="container split">
+          <div class="support-panel">
+            <h2>Need help?</h2>
+            <p>Tell us what you were doing, what happened, your device model, iOS or iPadOS version, and your Spatial Studio version.</p>
+            <a class="button" href="https://github.com/akhavein/spatial-studio-support/issues/new" rel="external">Open a support request <span aria-hidden="true">↗</span></a>
+            <p class="fine-print">GitHub issues are public. Do not attach room scans, project files, addresses, client names, or other sensitive information.</p>
+          </div>
+          <div>
+            <p class="eyebrow">Before you post</p>
+            <h2>Three useful checks</h2>
+            <ol>
+              <li>Confirm the device has LiDAR and is running iOS or iPadOS 17 or later.</li>
+              <li>Restart Spatial Studio, then try the same action once more.</li>
+              <li>Open Spatial Studio <strong>Settings → Diagnostics</strong>. Copy the local log and review it before posting only the non-sensitive lines that help explain the issue.</li>
+            </ol>
+            <p>The app never sends diagnostics automatically.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tight">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Frequently asked questions</p>
+            <h2>Scanning, files, exports, and purchases.</h2>
+          </div>
+
+          <div class="faq-list">
+            <details>
+              <summary>Which devices can scan a room?</summary>
+              <div class="details-body">
+                <p>Scanning requires iOS or iPadOS 17 or later and a LiDAR sensor:</p>
+                <ul>
+                  <li>iPhone 12 Pro or 12 Pro Max, and later Pro or Pro Max models with LiDAR.</li>
+                  <li>iPad Pro models from 2020 or later that include LiDAR.</li>
+                </ul>
+                <p>A device without LiDAR can still explore the included sample project and open compatible plans shared with it, but it cannot capture a new room.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>How do I get a cleaner scan?</summary>
+              <div class="details-body">
+                <ul>
+                  <li>Turn on the lights and clear major obstructions along walls.</li>
+                  <li>Move slowly and smoothly, about 2–3 metres from the wall.</li>
+                  <li>Sweep each wall from top to bottom and capture every corner.</li>
+                  <li>Move past mirrors and glass rather than lingering on them.</li>
+                  <li>Scan one room at a time and split very large spaces into sections.</li>
+                </ul>
+                <p>After capture, verify important dimensions with a tape and type those values into the editor. See the <a href="../accuracy/">accuracy guide</a>.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Where are my projects stored?</summary>
+              <div class="details-body">
+                <p>Projects are local <code>.sstudio</code> packages in Spatial Studio’s Documents area, visible through the Files app. The app does not upload them. Exports stay in the project package until you choose a destination with the system share sheet.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>How should I back up my work?</summary>
+              <div class="details-body">
+                <p>Keep iCloud device backup enabled or make regular encrypted backups to a computer. You can also use the Files app to copy important <code>.sstudio</code> project packages to storage you control. Confirm that a backup completed before deleting or replacing a device.</p>
+                <p>Deleting Spatial Studio deletes projects that remain inside its app container. Files you deliberately copied or exported elsewhere are not removed with the app.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>What can Spatial Studio export?</summary>
+              <div class="details-body">
+                <p>Spatial Studio can generate dimensioned PDF plans, PNG and JPEG images, DXF for CAD workflows, and OBJ or USDZ 3D files. The free tier includes a watermarked plan export. The one-time Pro unlock removes watermarks and enables the Pro export formats. There is no subscription.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>How do I use a DXF export?</summary>
+              <div class="details-body">
+                <p>Share the DXF file to Files, then import or open it in a CAD application that supports DXF. Check the drawing units after import: Spatial Studio writes the project’s metric or imperial unit setting into the file.</p>
+                <p>SketchUp Pro can import DXF. SketchUp Free does not import DXF; for that workflow, export a PNG and use it as a scaled image underlay instead.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Does Spatial Studio upload or analyze my scans?</summary>
+              <div class="details-body">
+                <p>No. The app has no developer server, account system, analytics SDK, advertising SDK, or cloud-processing path. Scans, projects, exports, and diagnostics stay on your device unless you deliberately share a file. The App Store privacy response is <strong>Data Not Collected</strong>. See the <a href="../privacy/">privacy policy</a>.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Why can I not purchase Pro while offline?</summary>
+              <div class="details-body">
+                <p>A new purchase needs a connection so Apple can load the localized product and complete StoreKit verification. Existing verified Pro access is designed to remain available offline. If purchasing is unavailable, reconnect to the internet and try again; the watermarked free export path remains available.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>How do I restore Pro?</summary>
+              <div class="details-body">
+                <p>Open the Pro screen and choose <strong>Restore Purchases</strong> while signed in with the Apple ID that made or shares the purchase. Family Sharing availability depends on Apple’s account and family settings. Project and exported files are not deleted if an entitlement changes.</p>
+              </div>
+            </details>
+
+            <details id="refunds">
+              <summary>How do I request a refund?</summary>
+              <div class="details-body">
+                <p>Purchases and refunds are handled by Apple, not by Spatial Studio. In the app, open <strong>Settings → Request a Refund</strong> to use Apple’s system flow, or visit <a href="https://reportaproblem.apple.com/" rel="external">reportaproblem.apple.com</a>. Apple decides whether a purchase qualifies and sends the outcome.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>What does the area figure mean?</summary>
+              <div class="details-body">
+                <p>Area is calculated from the interior floor polygon represented by the plan. It is not ANSI Z765 gross living area, listing square footage, an appraisal, or a code-compliance measurement. Scan uncertainty and later edits affect the result. Verify any figure used for a transaction or filing.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Can I scan several floors in one project?</summary>
+              <div class="details-body">
+                <p>The current project model is one floor per project. For a multi-storey property, create a separate project for each floor.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="container band-grid">
+          <div>
+            <h2>Still stuck?</h2>
+            <p>Open a public issue with clear reproduction steps and non-sensitive diagnostics. A focused report is the fastest route to a fix.</p>
+          </div>
+          <a class="button" href="https://github.com/akhavein/spatial-studio-support/issues/new" rel="external">Open a support request <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-copy">
+          <a class="brand" href="../">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Spatial Studio</span>
+          </a>
+          <p>Editable LiDAR floor plans, processed on your iPhone or iPad. Measurements are estimates; verify critical dimensions.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="../accuracy/">Accuracy</a>
+          <a href="./" aria-current="page">Support</a>
+          <a href="../privacy/">Privacy</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

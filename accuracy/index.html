@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#163d58">
+    <meta name="description" content="Understand Spatial Studio measurement accuracy, LiDAR limitations, typed dimensions, area calculations, and when to verify with a tape or professional.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Measurement Accuracy — Spatial Studio">
+    <meta property="og:description" content="LiDAR scans are estimates. Learn how Spatial Studio presents scanned and tape-verified dimensions honestly.">
+    <meta name="twitter:card" content="summary">
+    <title>Measurement Accuracy — Spatial Studio</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="../" aria-label="Spatial Studio home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Spatial Studio</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="../">Overview</a>
+          <a href="./" aria-current="page">Accuracy</a>
+          <a href="../support/">Support</a>
+          <a href="../privacy/">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Measurement transparency</p>
+          <h1>Useful estimates, clearly labeled.</h1>
+          <p class="lead">Spatial Studio helps you turn a LiDAR scan into an editable plan. It does not turn a phone into a professional survey instrument.</p>
+          <p class="meta-line">Guidance last updated: July 31, 2026</p>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="container prose-layout">
+          <nav class="page-index" aria-label="On this page">
+            <strong>On this page</strong>
+            <a href="#expectation">What to expect</a>
+            <a href="#sources">Dimension sources</a>
+            <a href="#conditions">Scan conditions</a>
+            <a href="#areas">Area calculations</a>
+            <a href="#verify">When to verify</a>
+          </nav>
+
+          <div class="prose">
+            <section id="expectation">
+              <h2>What to expect from room-scanning LiDAR</h2>
+              <div class="callout warning">
+                <strong>Plan around ±5 cm (about 2 in) for scanned dimensions.</strong>
+                <p>This is a typical working tolerance used by Spatial Studio to set expectations, not a guarantee for every wall or room. Some scans can differ by more, especially in difficult conditions.</p>
+              </div>
+              <p>Spatial Studio rounds scanned dimensions to avoid false precision: 1 cm in metric or ½ inch in imperial. The editor lets you replace an important scanned value with a tape-measured value and identifies that value as user-set.</p>
+              <p>No measurement from Spatial Studio should be treated as a certified survey, appraisal, as-built drawing, or code-compliance measurement.</p>
+            </section>
+
+            <section id="sources">
+              <h2>Know where a number came from</h2>
+              <div class="table-wrap" role="region" aria-label="Dimension source comparison" tabindex="0">
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Value type</th>
+                      <th scope="col">How it is produced</th>
+                      <th scope="col">How to use it</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Scanned dimension</strong></td>
+                      <td>Estimated from the on-device RoomPlan capture; displayed to 1 cm or ½ in.</td>
+                      <td>Good for planning and documentation where approximate dimensions are acceptable. Verify critical values.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>User-set dimension</strong></td>
+                      <td>Typed by you from a tape or another source and marked separately in the editor.</td>
+                      <td>Used as the entered value in the plan and locked against geometry changes until you choose to unlock it.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Calculated area</strong></td>
+                      <td>Computed from the interior floor polygon in the edited plan.</td>
+                      <td>An interior floor-area estimate only; not an appraisal or listing-area standard.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <section id="conditions">
+              <h2>Conditions that affect a scan</h2>
+              <p>LiDAR is only one input. RoomPlan also relies on camera imagery, device tracking, and a clear view of room boundaries. Accuracy and completeness can be affected by:</p>
+              <ul>
+                <li>mirrors, glass, glossy surfaces, dark corners, or poor lighting;</li>
+                <li>furniture or clutter that hides wall edges and corners;</li>
+                <li>fast movement, interrupted tracking, or incomplete wall coverage;</li>
+                <li>very large, curved, angled, or open spaces;</li>
+                <li>doors and windows that are partly obscured;</li>
+                <li>separate room scans that must be manually aligned.</li>
+              </ul>
+              <p>For better results, move slowly, keep the device roughly 2–3 metres from each wall, sweep from top to bottom, and capture every corner. Review the plan before exporting.</p>
+            </section>
+
+            <section id="areas">
+              <h2>How area is calculated</h2>
+              <p>Spatial Studio reports <strong>interior floor area from the plan’s net room polygon</strong>. It is not ANSI Z765 gross living area (GLA), exterior area, appraisal square footage, or a representation that a space meets any legal definition of habitable area.</p>
+              <p>Area changes when the underlying geometry changes, so scan error, manual alignment, and edits can all affect the total. Do not copy this figure into a listing, valuation, permit, insurance filing, purchase decision, or contract without applying the required standard and independent verification.</p>
+            </section>
+
+            <section id="verify">
+              <h2>When independent verification matters</h2>
+              <p>Always verify critical dimensions with a tape, laser measure, or qualified professional before:</p>
+              <ul>
+                <li>ordering cabinetry, glass, countertops, flooring, or fabricated components;</li>
+                <li>making structural, electrical, plumbing, accessibility, or code decisions;</li>
+                <li>using a measurement in an appraisal, property listing, insurance claim, permit, or legal filing;</li>
+                <li>making a purchase or construction decision where an error would be costly or unsafe.</li>
+              </ul>
+              <p>Spatial Studio is a documentation and planning tool. It does not provide surveying, architecture, engineering, appraisal, or other professional services.</p>
+              <div class="button-row">
+                <a class="button primary" href="../support/">Visit support</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-copy">
+          <a class="brand" href="../">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Spatial Studio</span>
+          </a>
+          <p>Editable LiDAR floor plans, processed on your iPhone or iPad. Measurements are estimates; verify critical dimensions.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="./" aria-current="page">Accuracy</a>
+          <a href="../support/">Support</a>
+          <a href="../privacy/">Privacy</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

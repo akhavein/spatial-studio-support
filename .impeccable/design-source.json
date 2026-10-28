@@ -1,0 +1,2715 @@
+{
+  "capturedFrom": "f3e84b31150202913fc796f424cdbf96685b3514",
+  "scope": "Tracked current-main source only; no computed-style or device verification.",
+  "sources": [
+    {
+      "path": "styles.css",
+      "sha256": "8324436912caf8d7c2285d9def0f22568c5152f3db14c4b0dcb856d6299ef8d7"
+    }
+  ],
+  "declarations": [
+    {
+      "file": "styles.css",
+      "line": 3,
+      "context": ":root",
+      "property": "--ink",
+      "value": "#17201c"
+    },
+    {
+      "file": "styles.css",
+      "line": 4,
+      "context": ":root",
+      "property": "--ink-soft",
+      "value": "#4e5b55"
+    },
+    {
+      "file": "styles.css",
+      "line": 5,
+      "context": ":root",
+      "property": "--paper",
+      "value": "#f5f5ef"
+    },
+    {
+      "file": "styles.css",
+      "line": 6,
+      "context": ":root",
+      "property": "--paper-deep",
+      "value": "#ebece4"
+    },
+    {
+      "file": "styles.css",
+      "line": 7,
+      "context": ":root",
+      "property": "--surface",
+      "value": "#ffffff"
+    },
+    {
+      "file": "styles.css",
+      "line": 8,
+      "context": ":root",
+      "property": "--line",
+      "value": "#cfd6ce"
+    },
+    {
+      "file": "styles.css",
+      "line": 9,
+      "context": ":root",
+      "property": "--line-strong",
+      "value": "#aab6ad"
+    },
+    {
+      "file": "styles.css",
+      "line": 10,
+      "context": ":root",
+      "property": "--accent",
+      "value": "#087f5b"
+    },
+    {
+      "file": "styles.css",
+      "line": 11,
+      "context": ":root",
+      "property": "--accent-deep",
+      "value": "#075f46"
+    },
+    {
+      "file": "styles.css",
+      "line": 12,
+      "context": ":root",
+      "property": "--accent-pale",
+      "value": "#dff3e9"
+    },
+    {
+      "file": "styles.css",
+      "line": 13,
+      "context": ":root",
+      "property": "--blueprint",
+      "value": "#163d58"
+    },
+    {
+      "file": "styles.css",
+      "line": 14,
+      "context": ":root",
+      "property": "--blueprint-line",
+      "value": "#80aec5"
+    },
+    {
+      "file": "styles.css",
+      "line": 15,
+      "context": ":root",
+      "property": "--warning",
+      "value": "#8b4c16"
+    },
+    {
+      "file": "styles.css",
+      "line": 16,
+      "context": ":root",
+      "property": "--warning-pale",
+      "value": "#fff0dc"
+    },
+    {
+      "file": "styles.css",
+      "line": 17,
+      "context": ":root",
+      "property": "--shadow",
+      "value": "0 22px 70px rgba(23, 32, 28, 0.12)"
+    },
+    {
+      "file": "styles.css",
+      "line": 18,
+      "context": ":root",
+      "property": "--radius-sm",
+      "value": "0.75rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 19,
+      "context": ":root",
+      "property": "--radius-md",
+      "value": "1.15rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 20,
+      "context": ":root",
+      "property": "--radius-lg",
+      "value": "1.75rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 21,
+      "context": ":root",
+      "property": "--content",
+      "value": "72rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 36,
+      "context": "body",
+      "property": "margin",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 37,
+      "context": "body",
+      "property": "background",
+      "value": "radial-gradient(circle at 85% 4%, rgba(8, 127, 91, 0.1), transparent 30rem),\n    var(--paper)"
+    },
+    {
+      "file": "styles.css",
+      "line": 40,
+      "context": "body",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 41,
+      "context": "body",
+      "property": "font-family",
+      "value": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+    },
+    {
+      "file": "styles.css",
+      "line": 42,
+      "context": "body",
+      "property": "font-size",
+      "value": "1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 43,
+      "context": "body",
+      "property": "line-height",
+      "value": "1.65"
+    },
+    {
+      "file": "styles.css",
+      "line": 49,
+      "context": "img,\nsvg",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 50,
+      "context": "img,\nsvg",
+      "property": "max-width",
+      "value": "100%"
+    },
+    {
+      "file": "styles.css",
+      "line": 54,
+      "context": "a",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 60,
+      "context": "a:hover",
+      "property": "color",
+      "value": "var(--accent)"
+    },
+    {
+      "file": "styles.css",
+      "line": 64,
+      "context": ":focus-visible",
+      "property": "outline",
+      "value": "3px solid #ffbf47"
+    },
+    {
+      "file": "styles.css",
+      "line": 65,
+      "context": ":focus-visible",
+      "property": "outline-offset",
+      "value": "3px"
+    },
+    {
+      "file": "styles.css",
+      "line": 66,
+      "context": ":focus-visible",
+      "property": "border-radius",
+      "value": "0.25rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 67,
+      "context": ":focus-visible",
+      "property": "box-shadow",
+      "value": "0 0 0 6px var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 75,
+      "context": ".skip-link",
+      "property": "padding",
+      "value": "0.65rem 0.9rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 76,
+      "context": ".skip-link",
+      "property": "border-radius",
+      "value": "0.55rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 77,
+      "context": ".skip-link",
+      "property": "background",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 78,
+      "context": ".skip-link",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 80,
+      "context": ".skip-link",
+      "property": "transition",
+      "value": "transform 140ms ease"
+    },
+    {
+      "file": "styles.css",
+      "line": 84,
+      "context": ".skip-link:focus",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 89,
+      "context": ".container",
+      "property": "width",
+      "value": "min(calc(100% - 2rem), var(--content))"
+    },
+    {
+      "file": "styles.css",
+      "line": 90,
+      "context": ".container",
+      "property": "margin-inline",
+      "value": "auto"
+    },
+    {
+      "file": "styles.css",
+      "line": 97,
+      "context": ".site-header",
+      "property": "border-bottom",
+      "value": "1px solid rgba(170, 182, 173, 0.72)"
+    },
+    {
+      "file": "styles.css",
+      "line": 98,
+      "context": ".site-header",
+      "property": "background",
+      "value": "rgba(245, 245, 239, 0.92)"
+    },
+    {
+      "file": "styles.css",
+      "line": 105,
+      "context": ".nav-shell",
+      "property": "display",
+      "value": "flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 108,
+      "context": ".nav-shell",
+      "property": "gap",
+      "value": "1.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 112,
+      "context": ".brand",
+      "property": "display",
+      "value": "inline-flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 114,
+      "context": ".brand",
+      "property": "gap",
+      "value": "0.7rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 115,
+      "context": ".brand",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 116,
+      "context": ".brand",
+      "property": "font-weight",
+      "value": "760"
+    },
+    {
+      "file": "styles.css",
+      "line": 117,
+      "context": ".brand",
+      "property": "letter-spacing",
+      "value": "-0.025em"
+    },
+    {
+      "file": "styles.css",
+      "line": 123,
+      "context": ".brand:hover",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 128,
+      "context": ".brand-mark",
+      "property": "width",
+      "value": "2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 131,
+      "context": ".brand-mark",
+      "property": "border-radius",
+      "value": "0.55rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 132,
+      "context": ".brand-mark",
+      "property": "background",
+      "value": "var(--blueprint)"
+    },
+    {
+      "file": "styles.css",
+      "line": 133,
+      "context": ".brand-mark",
+      "property": "box-shadow",
+      "value": "inset 0 0 0 1px rgba(255, 255, 255, 0.14)"
+    },
+    {
+      "file": "styles.css",
+      "line": 140,
+      "context": ".brand-mark::before,\n.brand-mark::after",
+      "property": "background",
+      "value": "#bcebd8"
+    },
+    {
+      "file": "styles.css",
+      "line": 146,
+      "context": ".brand-mark::before",
+      "property": "box-shadow",
+      "value": "0 0.48rem 0 #bcebd8, 0 0.96rem 0 #bcebd8"
+    },
+    {
+      "file": "styles.css",
+      "line": 151,
+      "context": ".brand-mark::after",
+      "property": "width",
+      "value": "0.16rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 152,
+      "context": ".brand-mark::after",
+      "property": "box-shadow",
+      "value": "0.48rem 0 0 #bcebd8, 0.96rem 0 0 #bcebd8"
+    },
+    {
+      "file": "styles.css",
+      "line": 156,
+      "context": ".site-nav",
+      "property": "display",
+      "value": "flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 158,
+      "context": ".site-nav",
+      "property": "gap",
+      "value": "0.25rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 162,
+      "context": ".site-nav a",
+      "property": "padding",
+      "value": "0.5rem 0.72rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 163,
+      "context": ".site-nav a",
+      "property": "border-radius",
+      "value": "0.55rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 164,
+      "context": ".site-nav a",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 165,
+      "context": ".site-nav a",
+      "property": "font-size",
+      "value": "0.93rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 166,
+      "context": ".site-nav a",
+      "property": "font-weight",
+      "value": "650"
+    },
+    {
+      "file": "styles.css",
+      "line": 172,
+      "context": ".site-nav a:hover,\n.site-nav a[aria-current=\"page\"]",
+      "property": "background",
+      "value": "var(--surface)"
+    },
+    {
+      "file": "styles.css",
+      "line": 173,
+      "context": ".site-nav a:hover,\n.site-nav a[aria-current=\"page\"]",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 181,
+      "context": ".hero",
+      "property": "padding",
+      "value": "clamp(4rem, 9vw, 7.5rem) 0 clamp(3.5rem, 8vw, 6rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 185,
+      "context": ".hero-grid",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 186,
+      "context": ".hero-grid",
+      "property": "grid-template-columns",
+      "value": "minmax(0, 1.08fr) minmax(20rem, 0.92fr)"
+    },
+    {
+      "file": "styles.css",
+      "line": 188,
+      "context": ".hero-grid",
+      "property": "gap",
+      "value": "clamp(2.5rem, 7vw, 6.5rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 192,
+      "context": ".eyebrow",
+      "property": "display",
+      "value": "inline-flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 194,
+      "context": ".eyebrow",
+      "property": "gap",
+      "value": "0.55rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 195,
+      "context": ".eyebrow",
+      "property": "margin",
+      "value": "0 0 1.15rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 196,
+      "context": ".eyebrow",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 197,
+      "context": ".eyebrow",
+      "property": "font-size",
+      "value": "0.78rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 198,
+      "context": ".eyebrow",
+      "property": "font-weight",
+      "value": "780"
+    },
+    {
+      "file": "styles.css",
+      "line": 199,
+      "context": ".eyebrow",
+      "property": "letter-spacing",
+      "value": "0.13em"
+    },
+    {
+      "file": "styles.css",
+      "line": 200,
+      "context": ".eyebrow",
+      "property": "line-height",
+      "value": "1.3"
+    },
+    {
+      "file": "styles.css",
+      "line": 206,
+      "context": ".eyebrow::before",
+      "property": "width",
+      "value": "1.6rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 208,
+      "context": ".eyebrow::before",
+      "property": "background",
+      "value": "currentColor"
+    },
+    {
+      "file": "styles.css",
+      "line": 214,
+      "context": "h1,\nh2,\nh3",
+      "property": "margin-top",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 215,
+      "context": "h1,\nh2,\nh3",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 216,
+      "context": "h1,\nh2,\nh3",
+      "property": "line-height",
+      "value": "1.08"
+    },
+    {
+      "file": "styles.css",
+      "line": 221,
+      "context": "h1",
+      "property": "max-width",
+      "value": "12ch"
+    },
+    {
+      "file": "styles.css",
+      "line": 222,
+      "context": "h1",
+      "property": "margin-bottom",
+      "value": "1.35rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 223,
+      "context": "h1",
+      "property": "font-size",
+      "value": "clamp(3rem, 7vw, 6.2rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 224,
+      "context": "h1",
+      "property": "letter-spacing",
+      "value": "-0.065em"
+    },
+    {
+      "file": "styles.css",
+      "line": 228,
+      "context": "h2",
+      "property": "margin-bottom",
+      "value": "1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 229,
+      "context": "h2",
+      "property": "font-size",
+      "value": "clamp(2rem, 4.5vw, 3.4rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 230,
+      "context": "h2",
+      "property": "letter-spacing",
+      "value": "-0.045em"
+    },
+    {
+      "file": "styles.css",
+      "line": 234,
+      "context": "h3",
+      "property": "margin-bottom",
+      "value": "0.7rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 235,
+      "context": "h3",
+      "property": "font-size",
+      "value": "1.25rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 236,
+      "context": "h3",
+      "property": "letter-spacing",
+      "value": "-0.025em"
+    },
+    {
+      "file": "styles.css",
+      "line": 240,
+      "context": "p",
+      "property": "margin-top",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 244,
+      "context": ".lead",
+      "property": "max-width",
+      "value": "42rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 245,
+      "context": ".lead",
+      "property": "margin-bottom",
+      "value": "1.75rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 246,
+      "context": ".lead",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 247,
+      "context": ".lead",
+      "property": "font-size",
+      "value": "clamp(1.1rem, 2vw, 1.3rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 248,
+      "context": ".lead",
+      "property": "line-height",
+      "value": "1.58"
+    },
+    {
+      "file": "styles.css",
+      "line": 252,
+      "context": ".button-row",
+      "property": "display",
+      "value": "flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 253,
+      "context": ".button-row",
+      "property": "flex-wrap",
+      "value": "wrap"
+    },
+    {
+      "file": "styles.css",
+      "line": 254,
+      "context": ".button-row",
+      "property": "gap",
+      "value": "0.75rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 255,
+      "context": ".button-row",
+      "property": "margin-top",
+      "value": "1.8rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 259,
+      "context": ".button",
+      "property": "display",
+      "value": "inline-flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 263,
+      "context": ".button",
+      "property": "gap",
+      "value": "0.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 264,
+      "context": ".button",
+      "property": "padding",
+      "value": "0.72rem 1.05rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 265,
+      "context": ".button",
+      "property": "border",
+      "value": "1px solid var(--line-strong)"
+    },
+    {
+      "file": "styles.css",
+      "line": 266,
+      "context": ".button",
+      "property": "border-radius",
+      "value": "0.7rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 267,
+      "context": ".button",
+      "property": "background",
+      "value": "var(--surface)"
+    },
+    {
+      "file": "styles.css",
+      "line": 268,
+      "context": ".button",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 269,
+      "context": ".button",
+      "property": "font-weight",
+      "value": "720"
+    },
+    {
+      "file": "styles.css",
+      "line": 270,
+      "context": ".button",
+      "property": "line-height",
+      "value": "1.2"
+    },
+    {
+      "file": "styles.css",
+      "line": 272,
+      "context": ".button",
+      "property": "box-shadow",
+      "value": "0 5px 18px rgba(23, 32, 28, 0.06)"
+    },
+    {
+      "file": "styles.css",
+      "line": 276,
+      "context": ".button:hover",
+      "property": "border-color",
+      "value": "var(--accent)"
+    },
+    {
+      "file": "styles.css",
+      "line": 277,
+      "context": ".button:hover",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 282,
+      "context": ".button.primary",
+      "property": "border-color",
+      "value": "var(--accent)"
+    },
+    {
+      "file": "styles.css",
+      "line": 283,
+      "context": ".button.primary",
+      "property": "background",
+      "value": "var(--accent)"
+    },
+    {
+      "file": "styles.css",
+      "line": 284,
+      "context": ".button.primary",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 288,
+      "context": ".button.primary:hover",
+      "property": "border-color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 289,
+      "context": ".button.primary:hover",
+      "property": "background",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 290,
+      "context": ".button.primary:hover",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 294,
+      "context": ".hero-note",
+      "property": "display",
+      "value": "flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 295,
+      "context": ".hero-note",
+      "property": "flex-wrap",
+      "value": "wrap"
+    },
+    {
+      "file": "styles.css",
+      "line": 296,
+      "context": ".hero-note",
+      "property": "gap",
+      "value": "0.55rem 1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 297,
+      "context": ".hero-note",
+      "property": "margin-top",
+      "value": "1.4rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 298,
+      "context": ".hero-note",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 299,
+      "context": ".hero-note",
+      "property": "font-size",
+      "value": "0.9rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 303,
+      "context": ".hero-note span",
+      "property": "display",
+      "value": "inline-flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 305,
+      "context": ".hero-note span",
+      "property": "gap",
+      "value": "0.38rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 310,
+      "context": ".hero-note span::before",
+      "property": "width",
+      "value": "0.48rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 312,
+      "context": ".hero-note span::before",
+      "property": "border-radius",
+      "value": "50%"
+    },
+    {
+      "file": "styles.css",
+      "line": 313,
+      "context": ".hero-note span::before",
+      "property": "background",
+      "value": "var(--accent)"
+    },
+    {
+      "file": "styles.css",
+      "line": 320,
+      "context": ".studio-card",
+      "property": "border",
+      "value": "1px solid rgba(128, 174, 197, 0.32)"
+    },
+    {
+      "file": "styles.css",
+      "line": 321,
+      "context": ".studio-card",
+      "property": "border-radius",
+      "value": "var(--radius-lg)"
+    },
+    {
+      "file": "styles.css",
+      "line": 322,
+      "context": ".studio-card",
+      "property": "background",
+      "value": "var(--blueprint)"
+    },
+    {
+      "file": "styles.css",
+      "line": 323,
+      "context": ".studio-card",
+      "property": "box-shadow",
+      "value": "var(--shadow)"
+    },
+    {
+      "file": "styles.css",
+      "line": 324,
+      "context": ".studio-card",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 343,
+      "context": ".plan-frame",
+      "property": "border",
+      "value": "0.34rem solid #d7f5e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 344,
+      "context": ".plan-frame",
+      "property": "border-right-width",
+      "value": "0.7rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 352,
+      "context": ".plan-frame::before",
+      "property": "width",
+      "value": "63%"
+    },
+    {
+      "file": "styles.css",
+      "line": 354,
+      "context": ".plan-frame::before",
+      "property": "background",
+      "value": "#d7f5e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 363,
+      "context": ".plan-frame::after",
+      "property": "width",
+      "value": "0.34rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 364,
+      "context": ".plan-frame::after",
+      "property": "background",
+      "value": "#d7f5e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 371,
+      "context": ".door-gap",
+      "property": "width",
+      "value": "30%"
+    },
+    {
+      "file": "styles.css",
+      "line": 373,
+      "context": ".door-gap",
+      "property": "background",
+      "value": "var(--blueprint)"
+    },
+    {
+      "file": "styles.css",
+      "line": 381,
+      "context": ".door-gap::after",
+      "property": "width",
+      "value": "100%"
+    },
+    {
+      "file": "styles.css",
+      "line": 383,
+      "context": ".door-gap::after",
+      "property": "border",
+      "value": "2px solid var(--blueprint-line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 384,
+      "context": ".door-gap::after",
+      "property": "border-left",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 385,
+      "context": ".door-gap::after",
+      "property": "border-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 386,
+      "context": ".door-gap::after",
+      "property": "border-radius",
+      "value": "0 100% 0 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 392,
+      "context": ".plan-label",
+      "property": "color",
+      "value": "#d7f5e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 393,
+      "context": ".plan-label",
+      "property": "font-size",
+      "value": "0.72rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 394,
+      "context": ".plan-label",
+      "property": "font-weight",
+      "value": "720"
+    },
+    {
+      "file": "styles.css",
+      "line": 395,
+      "context": ".plan-label",
+      "property": "letter-spacing",
+      "value": "0.1em"
+    },
+    {
+      "file": "styles.css",
+      "line": 414,
+      "context": ".dimension",
+      "property": "border-top",
+      "value": "1px solid var(--blueprint-line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 415,
+      "context": ".dimension",
+      "property": "color",
+      "value": "#b7d8e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 416,
+      "context": ".dimension",
+      "property": "font",
+      "value": "650 0.72rem/1 ui-monospace, SFMono-Regular, Menlo, monospace"
+    },
+    {
+      "file": "styles.css",
+      "line": 426,
+      "context": ".dimension::before,\n.dimension::after",
+      "property": "border-left",
+      "value": "1px solid var(--blueprint-line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 440,
+      "context": ".dimension span",
+      "property": "padding",
+      "value": "0 0.55rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 441,
+      "context": ".dimension span",
+      "property": "background",
+      "value": "var(--blueprint)"
+    },
+    {
+      "file": "styles.css",
+      "line": 449,
+      "context": ".studio-caption",
+      "property": "display",
+      "value": "flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 452,
+      "context": ".studio-caption",
+      "property": "gap",
+      "value": "1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 456,
+      "context": ".studio-caption strong",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 457,
+      "context": ".studio-caption strong",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 458,
+      "context": ".studio-caption strong",
+      "property": "font-size",
+      "value": "1.05rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 462,
+      "context": ".studio-caption small",
+      "property": "color",
+      "value": "#b7d8e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 466,
+      "context": ".status-chip",
+      "property": "padding",
+      "value": "0.35rem 0.58rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 467,
+      "context": ".status-chip",
+      "property": "border",
+      "value": "1px solid rgba(215, 245, 232, 0.38)"
+    },
+    {
+      "file": "styles.css",
+      "line": 468,
+      "context": ".status-chip",
+      "property": "border-radius",
+      "value": "999px"
+    },
+    {
+      "file": "styles.css",
+      "line": 469,
+      "context": ".status-chip",
+      "property": "background",
+      "value": "rgba(215, 245, 232, 0.12)"
+    },
+    {
+      "file": "styles.css",
+      "line": 470,
+      "context": ".status-chip",
+      "property": "color",
+      "value": "#d7f5e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 471,
+      "context": ".status-chip",
+      "property": "font-size",
+      "value": "0.72rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 472,
+      "context": ".status-chip",
+      "property": "font-weight",
+      "value": "760"
+    },
+    {
+      "file": "styles.css",
+      "line": 477,
+      "context": ".trust-strip",
+      "property": "border-block",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 478,
+      "context": ".trust-strip",
+      "property": "background",
+      "value": "rgba(255, 255, 255, 0.54)"
+    },
+    {
+      "file": "styles.css",
+      "line": 482,
+      "context": ".trust-grid",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 483,
+      "context": ".trust-grid",
+      "property": "grid-template-columns",
+      "value": "repeat(3, 1fr)"
+    },
+    {
+      "file": "styles.css",
+      "line": 487,
+      "context": ".trust-item",
+      "property": "padding",
+      "value": "1.55rem clamp(1rem, 3vw, 2.3rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 491,
+      "context": ".trust-item + .trust-item",
+      "property": "border-left",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 495,
+      "context": ".trust-item strong",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 496,
+      "context": ".trust-item strong",
+      "property": "margin-bottom",
+      "value": "0.18rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 497,
+      "context": ".trust-item strong",
+      "property": "font-size",
+      "value": "0.98rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 501,
+      "context": ".trust-item span",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 502,
+      "context": ".trust-item span",
+      "property": "font-size",
+      "value": "0.88rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 506,
+      "context": ".section",
+      "property": "padding",
+      "value": "clamp(4rem, 8vw, 7rem) 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 510,
+      "context": ".section.tight",
+      "property": "padding",
+      "value": "clamp(3rem, 6vw, 4.75rem) 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 514,
+      "context": ".section-header",
+      "property": "max-width",
+      "value": "47rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 515,
+      "context": ".section-header",
+      "property": "margin-bottom",
+      "value": "2.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 519,
+      "context": ".section-header p",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 520,
+      "context": ".section-header p",
+      "property": "font-size",
+      "value": "1.08rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 524,
+      "context": ".card-grid",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 525,
+      "context": ".card-grid",
+      "property": "grid-template-columns",
+      "value": "repeat(3, minmax(0, 1fr))"
+    },
+    {
+      "file": "styles.css",
+      "line": 526,
+      "context": ".card-grid",
+      "property": "gap",
+      "value": "1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 530,
+      "context": ".card",
+      "property": "padding",
+      "value": "clamp(1.35rem, 3vw, 2rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 531,
+      "context": ".card",
+      "property": "border",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 532,
+      "context": ".card",
+      "property": "border-radius",
+      "value": "var(--radius-md)"
+    },
+    {
+      "file": "styles.css",
+      "line": 533,
+      "context": ".card",
+      "property": "background",
+      "value": "rgba(255, 255, 255, 0.74)"
+    },
+    {
+      "file": "styles.css",
+      "line": 534,
+      "context": ".card",
+      "property": "box-shadow",
+      "value": "0 10px 34px rgba(23, 32, 28, 0.04)"
+    },
+    {
+      "file": "styles.css",
+      "line": 538,
+      "context": ".card-number",
+      "property": "display",
+      "value": "inline-grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 539,
+      "context": ".card-number",
+      "property": "width",
+      "value": "2.2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 541,
+      "context": ".card-number",
+      "property": "margin-bottom",
+      "value": "1.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 543,
+      "context": ".card-number",
+      "property": "border",
+      "value": "1px solid #a8d7c5"
+    },
+    {
+      "file": "styles.css",
+      "line": 544,
+      "context": ".card-number",
+      "property": "border-radius",
+      "value": "50%"
+    },
+    {
+      "file": "styles.css",
+      "line": 545,
+      "context": ".card-number",
+      "property": "background",
+      "value": "var(--accent-pale)"
+    },
+    {
+      "file": "styles.css",
+      "line": 546,
+      "context": ".card-number",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 547,
+      "context": ".card-number",
+      "property": "font",
+      "value": "750 0.82rem/1 ui-monospace, SFMono-Regular, Menlo, monospace"
+    },
+    {
+      "file": "styles.css",
+      "line": 551,
+      "context": ".card p:last-child",
+      "property": "margin-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 552,
+      "context": ".card p:last-child",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 556,
+      "context": ".split",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 557,
+      "context": ".split",
+      "property": "grid-template-columns",
+      "value": "minmax(0, 0.9fr) minmax(0, 1.1fr)"
+    },
+    {
+      "file": "styles.css",
+      "line": 559,
+      "context": ".split",
+      "property": "gap",
+      "value": "clamp(2.5rem, 7vw, 7rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 563,
+      "context": ".feature-list",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 564,
+      "context": ".feature-list",
+      "property": "gap",
+      "value": "0.75rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 565,
+      "context": ".feature-list",
+      "property": "margin",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 566,
+      "context": ".feature-list",
+      "property": "padding",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 572,
+      "context": ".feature-list li",
+      "property": "padding",
+      "value": "1rem 1rem 1rem 3rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 573,
+      "context": ".feature-list li",
+      "property": "border",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 574,
+      "context": ".feature-list li",
+      "property": "border-radius",
+      "value": "var(--radius-sm)"
+    },
+    {
+      "file": "styles.css",
+      "line": 575,
+      "context": ".feature-list li",
+      "property": "background",
+      "value": "rgba(255, 255, 255, 0.64)"
+    },
+    {
+      "file": "styles.css",
+      "line": 583,
+      "context": ".feature-list li::before",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 584,
+      "context": ".feature-list li::before",
+      "property": "width",
+      "value": "1.35rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 587,
+      "context": ".feature-list li::before",
+      "property": "border-radius",
+      "value": "50%"
+    },
+    {
+      "file": "styles.css",
+      "line": 588,
+      "context": ".feature-list li::before",
+      "property": "background",
+      "value": "var(--accent-pale)"
+    },
+    {
+      "file": "styles.css",
+      "line": 589,
+      "context": ".feature-list li::before",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 590,
+      "context": ".feature-list li::before",
+      "property": "font-size",
+      "value": "0.8rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 591,
+      "context": ".feature-list li::before",
+      "property": "font-weight",
+      "value": "800"
+    },
+    {
+      "file": "styles.css",
+      "line": 595,
+      "context": ".feature-list strong",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 599,
+      "context": ".feature-list span",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 600,
+      "context": ".feature-list span",
+      "property": "font-size",
+      "value": "0.92rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 604,
+      "context": ".band",
+      "property": "padding",
+      "value": "clamp(3.5rem, 7vw, 5.5rem) 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 605,
+      "context": ".band",
+      "property": "background",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 606,
+      "context": ".band",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 610,
+      "context": ".band-grid",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 611,
+      "context": ".band-grid",
+      "property": "grid-template-columns",
+      "value": "1fr auto"
+    },
+    {
+      "file": "styles.css",
+      "line": 613,
+      "context": ".band-grid",
+      "property": "gap",
+      "value": "2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 617,
+      "context": ".band h2",
+      "property": "max-width",
+      "value": "16ch"
+    },
+    {
+      "file": "styles.css",
+      "line": 618,
+      "context": ".band h2",
+      "property": "margin-bottom",
+      "value": "0.65rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 619,
+      "context": ".band h2",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 623,
+      "context": ".band p",
+      "property": "max-width",
+      "value": "42rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 624,
+      "context": ".band p",
+      "property": "margin-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 625,
+      "context": ".band p",
+      "property": "color",
+      "value": "#cdd6d1"
+    },
+    {
+      "file": "styles.css",
+      "line": 629,
+      "context": ".band .button",
+      "property": "box-shadow",
+      "value": "none"
+    },
+    {
+      "file": "styles.css",
+      "line": 633,
+      "context": ".page-hero",
+      "property": "padding",
+      "value": "clamp(4rem, 9vw, 7rem) 0 clamp(2.5rem, 6vw, 4.5rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 634,
+      "context": ".page-hero",
+      "property": "border-bottom",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 638,
+      "context": ".page-hero h1",
+      "property": "max-width",
+      "value": "15ch"
+    },
+    {
+      "file": "styles.css",
+      "line": 639,
+      "context": ".page-hero h1",
+      "property": "font-size",
+      "value": "clamp(2.7rem, 7vw, 5.3rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 643,
+      "context": ".page-hero .lead",
+      "property": "max-width",
+      "value": "48rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 644,
+      "context": ".page-hero .lead",
+      "property": "margin-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 648,
+      "context": ".meta-line",
+      "property": "margin-top",
+      "value": "1.2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 649,
+      "context": ".meta-line",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 650,
+      "context": ".meta-line",
+      "property": "font-size",
+      "value": "0.9rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 654,
+      "context": ".prose-layout",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 655,
+      "context": ".prose-layout",
+      "property": "grid-template-columns",
+      "value": "minmax(12rem, 0.27fr) minmax(0, 0.73fr)"
+    },
+    {
+      "file": "styles.css",
+      "line": 657,
+      "context": ".prose-layout",
+      "property": "gap",
+      "value": "clamp(2rem, 6vw, 6rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 663,
+      "context": ".page-index",
+      "property": "padding",
+      "value": "1.15rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 664,
+      "context": ".page-index",
+      "property": "border",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 665,
+      "context": ".page-index",
+      "property": "border-radius",
+      "value": "var(--radius-sm)"
+    },
+    {
+      "file": "styles.css",
+      "line": 666,
+      "context": ".page-index",
+      "property": "background",
+      "value": "rgba(255, 255, 255, 0.56)"
+    },
+    {
+      "file": "styles.css",
+      "line": 670,
+      "context": ".page-index strong",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 671,
+      "context": ".page-index strong",
+      "property": "margin-bottom",
+      "value": "0.6rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 672,
+      "context": ".page-index strong",
+      "property": "font-size",
+      "value": "0.78rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 673,
+      "context": ".page-index strong",
+      "property": "letter-spacing",
+      "value": "0.1em"
+    },
+    {
+      "file": "styles.css",
+      "line": 678,
+      "context": ".page-index a",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 679,
+      "context": ".page-index a",
+      "property": "padding",
+      "value": "0.33rem 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 680,
+      "context": ".page-index a",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 681,
+      "context": ".page-index a",
+      "property": "font-size",
+      "value": "0.9rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 686,
+      "context": ".page-index a:hover",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 691,
+      "context": ".prose",
+      "property": "max-width",
+      "value": "49rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 699,
+      "context": ".prose section + section",
+      "property": "margin-top",
+      "value": "3.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 700,
+      "context": ".prose section + section",
+      "property": "padding-top",
+      "value": "3.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 701,
+      "context": ".prose section + section",
+      "property": "border-top",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 705,
+      "context": ".prose h2",
+      "property": "font-size",
+      "value": "clamp(1.7rem, 3vw, 2.35rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 709,
+      "context": ".prose h3",
+      "property": "margin-top",
+      "value": "2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 714,
+      "context": ".prose p,\n.prose li",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 718,
+      "context": ".prose strong",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 723,
+      "context": ".prose ul,\n.prose ol",
+      "property": "padding-left",
+      "value": "1.3rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 727,
+      "context": ".prose li + li",
+      "property": "margin-top",
+      "value": "0.48rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 731,
+      "context": ".callout",
+      "property": "margin",
+      "value": "1.5rem 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 732,
+      "context": ".callout",
+      "property": "padding",
+      "value": "1.15rem 1.25rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 733,
+      "context": ".callout",
+      "property": "border",
+      "value": "1px solid #a8d7c5"
+    },
+    {
+      "file": "styles.css",
+      "line": 734,
+      "context": ".callout",
+      "property": "border-left",
+      "value": "0.32rem solid var(--accent)"
+    },
+    {
+      "file": "styles.css",
+      "line": 735,
+      "context": ".callout",
+      "property": "border-radius",
+      "value": "var(--radius-sm)"
+    },
+    {
+      "file": "styles.css",
+      "line": 736,
+      "context": ".callout",
+      "property": "background",
+      "value": "var(--accent-pale)"
+    },
+    {
+      "file": "styles.css",
+      "line": 740,
+      "context": ".callout.warning",
+      "property": "border-color",
+      "value": "#edbf86"
+    },
+    {
+      "file": "styles.css",
+      "line": 741,
+      "context": ".callout.warning",
+      "property": "border-left-color",
+      "value": "var(--warning)"
+    },
+    {
+      "file": "styles.css",
+      "line": 742,
+      "context": ".callout.warning",
+      "property": "background",
+      "value": "var(--warning-pale)"
+    },
+    {
+      "file": "styles.css",
+      "line": 746,
+      "context": ".callout p:last-child",
+      "property": "margin-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 750,
+      "context": ".callout strong",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 751,
+      "context": ".callout strong",
+      "property": "margin-bottom",
+      "value": "0.2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 755,
+      "context": ".faq-list",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 756,
+      "context": ".faq-list",
+      "property": "gap",
+      "value": "0.72rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 760,
+      "context": "details",
+      "property": "border",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 761,
+      "context": "details",
+      "property": "border-radius",
+      "value": "var(--radius-sm)"
+    },
+    {
+      "file": "styles.css",
+      "line": 762,
+      "context": "details",
+      "property": "background",
+      "value": "rgba(255, 255, 255, 0.7)"
+    },
+    {
+      "file": "styles.css",
+      "line": 766,
+      "context": "details[open]",
+      "property": "background",
+      "value": "var(--surface)"
+    },
+    {
+      "file": "styles.css",
+      "line": 767,
+      "context": "details[open]",
+      "property": "box-shadow",
+      "value": "0 8px 26px rgba(23, 32, 28, 0.05)"
+    },
+    {
+      "file": "styles.css",
+      "line": 772,
+      "context": "summary",
+      "property": "padding",
+      "value": "1rem 3rem 1rem 1.15rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 774,
+      "context": "summary",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 775,
+      "context": "summary",
+      "property": "font-weight",
+      "value": "720"
+    },
+    {
+      "file": "styles.css",
+      "line": 780,
+      "context": "summary::-webkit-details-marker",
+      "property": "display",
+      "value": "none"
+    },
+    {
+      "file": "styles.css",
+      "line": 788,
+      "context": "summary::after",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 789,
+      "context": "summary::after",
+      "property": "font-size",
+      "value": "1.35rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 790,
+      "context": "summary::after",
+      "property": "font-weight",
+      "value": "500"
+    },
+    {
+      "file": "styles.css",
+      "line": 799,
+      "context": ".details-body",
+      "property": "padding",
+      "value": "0 1.15rem 1.15rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 800,
+      "context": ".details-body",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 806,
+      "context": ".details-body p:last-child,\n.details-body ul:last-child,\n.details-body ol:last-child",
+      "property": "margin-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 810,
+      "context": ".table-wrap",
+      "property": "max-width",
+      "value": "100%"
+    },
+    {
+      "file": "styles.css",
+      "line": 812,
+      "context": ".table-wrap",
+      "property": "border",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 813,
+      "context": ".table-wrap",
+      "property": "border-radius",
+      "value": "var(--radius-sm)"
+    },
+    {
+      "file": "styles.css",
+      "line": 814,
+      "context": ".table-wrap",
+      "property": "background",
+      "value": "var(--surface)"
+    },
+    {
+      "file": "styles.css",
+      "line": 818,
+      "context": "table",
+      "property": "width",
+      "value": "100%"
+    },
+    {
+      "file": "styles.css",
+      "line": 820,
+      "context": "table",
+      "property": "border-collapse",
+      "value": "collapse"
+    },
+    {
+      "file": "styles.css",
+      "line": 821,
+      "context": "table",
+      "property": "font-size",
+      "value": "0.92rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 826,
+      "context": "th,\ntd",
+      "property": "padding",
+      "value": "0.9rem 1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 827,
+      "context": "th,\ntd",
+      "property": "border-bottom",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 833,
+      "context": "th",
+      "property": "background",
+      "value": "var(--paper-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 834,
+      "context": "th",
+      "property": "color",
+      "value": "var(--ink)"
+    },
+    {
+      "file": "styles.css",
+      "line": 835,
+      "context": "th",
+      "property": "font-size",
+      "value": "0.78rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 836,
+      "context": "th",
+      "property": "letter-spacing",
+      "value": "0.06em"
+    },
+    {
+      "file": "styles.css",
+      "line": 841,
+      "context": "td",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 845,
+      "context": "tr:last-child td",
+      "property": "border-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 849,
+      "context": ".support-panel",
+      "property": "padding",
+      "value": "clamp(1.5rem, 4vw, 2.4rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 850,
+      "context": ".support-panel",
+      "property": "border-radius",
+      "value": "var(--radius-md)"
+    },
+    {
+      "file": "styles.css",
+      "line": 851,
+      "context": ".support-panel",
+      "property": "background",
+      "value": "var(--blueprint)"
+    },
+    {
+      "file": "styles.css",
+      "line": 852,
+      "context": ".support-panel",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 853,
+      "context": ".support-panel",
+      "property": "box-shadow",
+      "value": "var(--shadow)"
+    },
+    {
+      "file": "styles.css",
+      "line": 858,
+      "context": ".support-panel h2,\n.support-panel h3",
+      "property": "color",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 862,
+      "context": ".support-panel p",
+      "property": "color",
+      "value": "#cde2ec"
+    },
+    {
+      "file": "styles.css",
+      "line": 866,
+      "context": ".support-panel .button",
+      "property": "border-color",
+      "value": "#bcebd8"
+    },
+    {
+      "file": "styles.css",
+      "line": 870,
+      "context": ".support-panel .fine-print",
+      "property": "margin-top",
+      "value": "1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 871,
+      "context": ".support-panel .fine-print",
+      "property": "margin-bottom",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 872,
+      "context": ".support-panel .fine-print",
+      "property": "color",
+      "value": "#b7d8e8"
+    },
+    {
+      "file": "styles.css",
+      "line": 873,
+      "context": ".support-panel .fine-print",
+      "property": "font-size",
+      "value": "0.82rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 877,
+      "context": ".fine-print",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 878,
+      "context": ".fine-print",
+      "property": "font-size",
+      "value": "0.84rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 882,
+      "context": ".site-footer",
+      "property": "padding",
+      "value": "2.8rem 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 883,
+      "context": ".site-footer",
+      "property": "border-top",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 887,
+      "context": ".footer-grid",
+      "property": "display",
+      "value": "grid"
+    },
+    {
+      "file": "styles.css",
+      "line": 888,
+      "context": ".footer-grid",
+      "property": "grid-template-columns",
+      "value": "1fr auto"
+    },
+    {
+      "file": "styles.css",
+      "line": 890,
+      "context": ".footer-grid",
+      "property": "gap",
+      "value": "2rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 894,
+      "context": ".footer-copy p",
+      "property": "max-width",
+      "value": "36rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 895,
+      "context": ".footer-copy p",
+      "property": "margin",
+      "value": "0.65rem 0 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 896,
+      "context": ".footer-copy p",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 897,
+      "context": ".footer-copy p",
+      "property": "font-size",
+      "value": "0.88rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 901,
+      "context": ".footer-nav",
+      "property": "display",
+      "value": "flex"
+    },
+    {
+      "file": "styles.css",
+      "line": 902,
+      "context": ".footer-nav",
+      "property": "flex-wrap",
+      "value": "wrap"
+    },
+    {
+      "file": "styles.css",
+      "line": 904,
+      "context": ".footer-nav",
+      "property": "gap",
+      "value": "0.5rem 1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 908,
+      "context": ".footer-nav a",
+      "property": "color",
+      "value": "var(--ink-soft)"
+    },
+    {
+      "file": "styles.css",
+      "line": 909,
+      "context": ".footer-nav a",
+      "property": "font-size",
+      "value": "0.88rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 914,
+      "context": ".footer-nav a:hover",
+      "property": "color",
+      "value": "var(--accent-deep)"
+    },
+    {
+      "file": "styles.css",
+      "line": 924,
+      "context": "@media (max-width: 800px) > .nav-shell",
+      "property": "padding-block",
+      "value": "0.8rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 926,
+      "context": "@media (max-width: 800px) > .nav-shell",
+      "property": "flex-direction",
+      "value": "column"
+    },
+    {
+      "file": "styles.css",
+      "line": 927,
+      "context": "@media (max-width: 800px) > .nav-shell",
+      "property": "gap",
+      "value": "0.6rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 931,
+      "context": "@media (max-width: 800px) > .site-nav",
+      "property": "width",
+      "value": "100%"
+    },
+    {
+      "file": "styles.css",
+      "line": 933,
+      "context": "@media (max-width: 800px) > .site-nav",
+      "property": "padding-bottom",
+      "value": "0.15rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 937,
+      "context": "@media (max-width: 800px) > .site-nav a:first-child",
+      "property": "margin-left",
+      "value": "-0.5rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 943,
+      "context": "@media (max-width: 800px) > .hero-grid,\n  .split,\n  .prose-layout",
+      "property": "grid-template-columns",
+      "value": "1fr"
+    },
+    {
+      "file": "styles.css",
+      "line": 947,
+      "context": "@media (max-width: 800px) > .hero-grid",
+      "property": "gap",
+      "value": "3rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 956,
+      "context": "@media (max-width: 800px) > .trust-grid,\n  .card-grid",
+      "property": "grid-template-columns",
+      "value": "1fr"
+    },
+    {
+      "file": "styles.css",
+      "line": 960,
+      "context": "@media (max-width: 800px) > .trust-item + .trust-item",
+      "property": "border-top",
+      "value": "1px solid var(--line)"
+    },
+    {
+      "file": "styles.css",
+      "line": 961,
+      "context": "@media (max-width: 800px) > .trust-item + .trust-item",
+      "property": "border-left",
+      "value": "0"
+    },
+    {
+      "file": "styles.css",
+      "line": 969,
+      "context": "@media (max-width: 800px) > .page-index a",
+      "property": "display",
+      "value": "inline-block"
+    },
+    {
+      "file": "styles.css",
+      "line": 970,
+      "context": "@media (max-width: 800px) > .page-index a",
+      "property": "margin-right",
+      "value": "1rem"
+    },
+    {
+      "file": "styles.css",
+      "line": 975,
+      "context": "@media (max-width: 800px) > .band-grid,\n  .footer-grid",
+      "property": "grid-template-columns",
+      "value": "1fr"
+    },
+    {
+      "file": "styles.css",
+      "line": 985,
+      "context": "@media (max-width: 480px) > .container",
+      "property": "width",
+      "value": "min(calc(100% - 1.25rem), var(--content))"
+    },
+    {
+      "file": "styles.css",
+      "line": 989,
+      "context": "@media (max-width: 480px) > h1",
+      "property": "font-size",
+      "value": "clamp(2.65rem, 15vw, 4rem)"
+    },
+    {
+      "file": "styles.css",
+      "line": 994,
+      "context": "@media (max-width: 480px) > .button-row,\n  .button",
+      "property": "width",
+      "value": "100%"
+    },
+    {
+      "file": "styles.css",
+      "line": 1012,
+      "context": "@media (max-width: 480px) > .status-chip",
+      "property": "display",
+      "value": "none"
+    },
+    {
+      "file": "styles.css",
+      "line": 1024,
+      "context": "@media (prefers-reduced-motion: reduce) > *,\n  *::before,\n  *::after",
+      "property": "transition-duration",
+      "value": "0.01ms"
+    },
+    {
+      "file": "styles.css",
+      "line": 1025,
+      "context": "@media (prefers-reduced-motion: reduce) > *,\n  *::before,\n  *::after",
+      "property": "animation-duration",
+      "value": "0.01ms"
+    },
+    {
+      "file": "styles.css",
+      "line": 1026,
+      "context": "@media (prefers-reduced-motion: reduce) > *,\n  *::before,\n  *::after",
+      "property": "animation-iteration-count",
+      "value": "1"
+    },
+    {
+      "file": "styles.css",
+      "line": 1032,
+      "context": "@media (prefers-contrast: more) > :root",
+      "property": "--line",
+      "value": "#7e8b83"
+    },
+    {
+      "file": "styles.css",
+      "line": 1033,
+      "context": "@media (prefers-contrast: more) > :root",
+      "property": "--ink-soft",
+      "value": "#344039"
+    },
+    {
+      "file": "styles.css",
+      "line": 1043,
+      "context": "@media print > .site-header,\n  .site-footer,\n  .button-row,\n  .page-index,\n  .band",
+      "property": "display",
+      "value": "none"
+    },
+    {
+      "file": "styles.css",
+      "line": 1047,
+      "context": "@media print > body",
+      "property": "background",
+      "value": "#fff"
+    },
+    {
+      "file": "styles.css",
+      "line": 1048,
+      "context": "@media print > body",
+      "property": "color",
+      "value": "#000"
+    },
+    {
+      "file": "styles.css",
+      "line": 1053,
+      "context": "@media print > .section,\n  .page-hero",
+      "property": "padding",
+      "value": "2rem 0"
+    },
+    {
+      "file": "styles.css",
+      "line": 1057,
+      "context": "@media print > .prose-layout",
+      "property": "display",
+      "value": "block"
+    },
+    {
+      "file": "styles.css",
+      "line": 1061,
+      "context": "@media print > a",
+      "property": "color",
+      "value": "#000"
+    },
+    {
+      "file": "styles.css",
+      "line": 918,
+      "context": "@media",
+      "property": "media-query",
+      "value": "(max-width: 800px)"
+    },
+    {
+      "file": "styles.css",
+      "line": 983,
+      "context": "@media",
+      "property": "media-query",
+      "value": "(max-width: 480px)"
+    },
+    {
+      "file": "styles.css",
+      "line": 1016,
+      "context": "@media",
+      "property": "media-query",
+      "value": "(prefers-reduced-motion: reduce)"
+    },
+    {
+      "file": "styles.css",
+      "line": 1030,
+      "context": "@media",
+      "property": "media-query",
+      "value": "(prefers-contrast: more)"
+    },
+    {
+      "file": "styles.css",
+      "line": 1037,
+      "context": "@media",
+      "property": "media-query",
+      "value": "print"
+    }
+  ],
+  "parseErrors": []
+}

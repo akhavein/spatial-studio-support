@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T19:13:28.112Z",
+  "title": "Design System: spatial-studio-support",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "source-1",
+        "value": "0 0 0 6px var(--ink)",
+        "purpose": "styles.css:67 :focus-visible"
+      },
+      {
+        "name": "source-2",
+        "value": "inset 0 0 0 1px rgba(255, 255, 255, 0.14)",
+        "purpose": "styles.css:133 .brand-mark"
+      },
+      {
+        "name": "source-3",
+        "value": "0 0.48rem 0 #bcebd8, 0 0.96rem 0 #bcebd8",
+        "purpose": "styles.css:146 .brand-mark::before"
+      },
+      {
+        "name": "source-4",
+        "value": "0.48rem 0 0 #bcebd8, 0.96rem 0 0 #bcebd8",
+        "purpose": "styles.css:152 .brand-mark::after"
+      },
+      {
+        "name": "source-5",
+        "value": "0 5px 18px rgba(23, 32, 28, 0.06)",
+        "purpose": "styles.css:272 .button"
+      },
+      {
+        "name": "source-6",
+        "value": "var(--shadow)",
+        "purpose": "styles.css:323 .studio-card"
+      },
+      {
+        "name": "source-7",
+        "value": "0 10px 34px rgba(23, 32, 28, 0.04)",
+        "purpose": "styles.css:534 .card"
+      },
+      {
+        "name": "source-8",
+        "value": "none",
+        "purpose": "styles.css:629 .band .button"
+      },
+      {
+        "name": "source-9",
+        "value": "0 8px 26px rgba(23, 32, 28, 0.05)",
+        "purpose": "styles.css:767 details[open]"
+      }
+    ],
+    "motion": [
+      {
+        "name": "source-1",
+        "value": "transform 140ms ease",
+        "purpose": "styles.css:80 .skip-link"
+      },
+      {
+        "name": "source-2",
+        "value": "0.01ms",
+        "purpose": "styles.css:1024 @media (prefers-reduced-motion: reduce) > *,\n  *::before,\n  *::after"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "source-1",
+        "value": "(max-width: 800px)",
+        "purpose": "styles.css:918 @media"
+      },
+      {
+        "name": "source-2",
+        "value": "(max-width: 480px)",
+        "purpose": "styles.css:983 @media"
+      },
+      {
+        "name": "source-3",
+        "value": "(prefers-reduced-motion: reduce)",
+        "purpose": "styles.css:1016 @media"
+      },
+      {
+        "name": "source-4",
+        "value": "(prefers-contrast: more)",
+        "purpose": "styles.css:1030 @media"
+      },
+      {
+        "name": "source-5",
+        "value": "print",
+        "purpose": "styles.css:1037 @media"
+      }
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "overview": "Source capture of the incumbent implementation. Rendered appearance, creative direction and component previews remain unverified.",
+    "keyCharacteristics": [],
+    "rules": [],
+    "dos": [
+      "Preserve existing tokens, selectors, light/dark variants, locale overrides and platform semantics."
+    ],
+    "donts": [
+      "Do not synthesize missing colors, scales, component previews or product claims."
+    ]
+  }
+}
